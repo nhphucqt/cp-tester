@@ -7,11 +7,6 @@ void genTest() {
     ofstream inp(test::name+test::ex_in);
     //
     // Make test here
-    int n = test::rg[0].ra();
-    inp << 1 << ' ' << n << '\n';
-    for (int i = 1; i <= n; ++i) {
-        inp << test::rg[1].ra() << ' ';
-    }
     //
     inp.close();
 }
